@@ -1,0 +1,25 @@
+
+@import '../../../scss/partials/links';
+
+.logo{
+    position: relative;
+    padding: 1rem 0;
+    .eye{
+        position: absolute;
+        z-index: -1;               
+        @include trans(all ease-out .2s);
+        &.m0{
+            margin:2.8rem 0 0 16.1rem; 
+        } 
+        &.m1{
+            margin:2.5rem 0 0 15.9rem;
+        }
+        &.m2{
+            margin:2.8rem 0 0 15.5rem;
+        } 
+        &.m3{
+            margin:3.2rem 0 0 15.8rem;
+        }          
+    }
+    
+}

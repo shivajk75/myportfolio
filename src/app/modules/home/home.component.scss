@@ -1,0 +1,27 @@
+
+@import '../../../scss/partials/links';
+
+.caption{
+    font-family: 'Rockwell_MT_Bold';
+    font-size: 7rem;
+    color: $text-color-1;
+    line-height: 1;
+}
+.intro{
+    border-left: 0.1rem solid $border-color-1;
+    .name{
+        font-family: 'MontserratExtraBold';
+        color: $text-color-5;
+        font-size: 3rem;
+        line-height: 1.1;
+    }
+    .description{
+        padding-top: 2rem;
+        font-family: 'Bahnschrift';
+        color: $text-color-5;
+        font-size: 1.6rem;
+        line-height: 1.2;
+        width: 25rem;
+    }
+}
+
